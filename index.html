@@ -1,229 +1,197 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>College Information</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f2f2f2;
-        }
-
-        header {
-            background: #0d6efd;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        footer {
-            background: #0d6efd;
-            color: white;
-            text-align: center;  
-            padding: 12px;
-            margin-top: 20px;
-        }
-
-        section {
-            background: white;
-            width: 90%;
-            margin: 20px auto;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 5px gray;
-        }
-
-        h2 {
-            color: #0d6efd;
-            border-bottom: 2px solid #0d6efd;
-            padding-bottom: 5px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th {
-            background: #0d6efd;
-            color: white;
-            padding: 10px;
-        }
-
-        td {
-            padding: 10px;
-            border: 1px solid #dddddd;
-            text-align: center;
-        }
-
-        img {
-            width: 23%;
-            height: 150px;
-            border-radius: 5px;
-            margin-right: 10px;
-        }
-
-        marquee {
-            color: darkred;
-            font-weight: bold;
-        }
-    </style>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marwadi University - CE Department</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+rel="stylesheet">
 </head>
+<body style="background-color: #f1f5f9;">
+<header class="text-white text-center p-4" style="background-color: lab(58.58% 13.57 -
+64.66);">
+<h1 class="fw-bold">Marwadi University</h1>
+<h2 class="fs-4">Department of Computer Engineering</h2>
+<p class="mb-0">Excellence in Education, Innovation and Technology</p>
+</header>
+<nav class="text-center p-3 shadow-sm" style="background-color: #28527a;">
+<a href="#vision" class="btn m-1 text-white" style="background-color:
+#3b82a0;">Vision</a>
+<a href="#mission" class="btn m-1 text-white" style="background-color:
+#3b82a0;">Mission</a>
+<a href="#PSO" class="btn m-1 text-white" style="background-color:
+#3b82a0;">PSOs</a>
+<a href="#CO" class="btn m-1 text-white" style="background-color:
+#3b82a0;">Courses</a>
+<a href="#gallery" class="btn m-1 text-white" style="background-color:
+#3b82a0;">Gallery</a>
+<a href="#TR" class="btn m-1 text-white" style="background-color:
+#3b82a0;">Recruiters</a>
+</nav>
+<div class="container my-4">
+<section id="vision" class="bg-white p-4 mb-4 rounded-3 shadow-sm">
+<h3 class="fw-bold border-bottom pb-2" style="color: #17365d;">Vision</h3>
+<p class="mt-3 mb-0">
+To impart quality technical education through research,
+innovation, and teamwork for creating professionally
+superior and ethically strong manpower that meets the
+global challenges of engineering industries and research
+organizations.
+</p>
+</section>
+<section id="mission" class="bg-white p-4 mb-4 rounded-3 shadow-sm">
+<h3 class="fw-bold border-bottom pb-2" style="color: #17365d;">
+Mission
+</h3>
+<ul class="mt-3 mb-0">
+<li class="mb-2">
+Maintain state-of-the-art ICT enabled teaching and
+learning methodologies.
+</li>
+<li class="mb-2">
+Enable graduates to become digital age literates,
+innovators, and professionals.
+</li>
+<li class="mb-2">
+Provide skills, knowledge, and attitudes for success
+as engineers, leaders, and entrepreneurs.
+</li>
+<li>
+Prepare graduates for lifelong learning and career
+challenges.
+</li>
+</ul>
+</section>
+<section id="PSO" class="bg-white p-4 mb-4 rounded-3 shadow-sm">
+<h3 class="fw-bold border-bottom pb-2" style="color: #17365d;">
+Program Specific Outcomes (PSOs)
+</h3>
+<ol class="mt-3 mb-0">
+<li class="mb-2">
+Apply knowledge and competence in the design and
+development of computer-based systems addressing
+industrial and social needs.
+</li>
+<li>
+Adapt to emerging technological advancements
+including cybersecurity, AR/VR, and IoT.
+</li>
+</ol>
+</section>
+<section id="CO" class="bg-white p-4 mb-4 rounded-3 shadow-sm">
+<h3 class="fw-bold border-bottom pb-2" style="color: #17365d;">Courses
+Offered</h3>
+<ul class="mt-3 mb-0">
+<li class="mb-2">
+B.Tech in Computer Engineering
+</li>
+<li class="mb-2">
+B.Tech in Cyber Security
+</li>
+<li class="mb-2">
+M.Tech in Computer Engineering
+</li>
+<li>
+Ph.D. in Computer Science & Engineering
+</li>
+</ul>
+</section>
+<section id="gallery" class="bg-white p-4 mb-4 rounded-3 shadow-sm">
+<h3 class="fw-bold border-bottom pb-2 mb-3" style="color: #17365d;">
+Gallery
+</h3>
+<div class="row g-3">
+<div class="col-12 col-sm-6 col-lg-3">
+<img src="https://encrypted-
+tbn0.gstatic.com/images?q=tbn:ANd9GcQ4V87E1Y1wIW5PNkar4edhvnghe0i_XHYIAaBSlvKT8g
 
-<body>
+&s=10"
 
-    <header>
-        <h1><b><u>Marwadi University</u></b></h1>
-        <p>Rajkot, Gujarat</p>
-    </header>
+class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit:
 
-    <marquee>
-        Admissions Open for 2026 | NAAC Accredited | Excellent Placement Record
-    </marquee>
+cover;"
 
-    <section>
+alt="University Campus">
+</div>
+<div class="col-12 col-sm-6 col-lg-3">
 
-        <h2>Vision</h2>
+<img src="https://encrypted-
+tbn0.gstatic.com/images?q=tbn:ANd9GcQIKP4nFcHDFWbrJOn6f9W8m31bnMHXbNX7LwAtOBd
 
-        <p>
-            To foster an environment that empowers people, organizations and societies
-            through education, ideas, research and training.
-        </p>
+LUg&s=10"
 
-    </section>
+class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit:
 
-    <section>
+cover;"
 
-        <h2>Mission</h2>
+alt="University Building">
+</div>
+<div class="col-12 col-sm-6 col-lg-3">
 
-        <ul>
-            <li>To provide quality education and thereby bring social transformation.</li>
-            <li>To create leaders through innovation and entrepreneurship.</li>
-            <li>To cultivate the culture of research advancements.</li>
-            <li>To imbibe universal consciousness.</li>
-            <li>To stimulate growth through industrial and international partnerships.</li>
-        </ul>
+<img src="https://encrypted-
+tbn0.gstatic.com/images?q=tbn:ANd9GcQHX3uruxrrEbTKiTeCbA2OVbNXUoGdjjOQMc1OEFGSr
 
-    </section>
+Q&s=10"
 
-    <section>
+class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit:
 
-        <h2>Program Specific Outcomes</h2>
+cover;"
 
-        <ol>
-            <li>Develop software solutions using modern programming languages.</li>
-            <li>Apply analytical and problem-solving skills to real-world challenges.</li>
-            <li>Work effectively in multidisciplinary teams with ethical responsibility.</li>
-            <li>Adopt emerging technologies for continuous professional growth.</li>
-        </ol>
-    </section>
+alt="Computer Engineering Department">
+</div>
+<div class="col-12 col-sm-6 col-lg-3">
 
-    <section>
+<img src="https://encrypted-
+tbn0.gstatic.com/images?q=tbn:ANd9GcS3holWiiBRgonZVCFfYrE3KcyWEoNNn4mE3Y2wZ0ekXg
 
-        <h2>Courses Offered</h2>
+&s=10"
 
-        <table>
-            <tr>
-                <th>Course</th>
-                <th>Duration</th>
-            </tr>
+class="img-fluid rounded shadow-sm w-100" style="height: 200px; object-fit:
 
-            <tr>
-                <td>B.Tech</td>
-                <td>4 Years</td>
-            </tr>
+cover;"
 
-            <tr>
-                <td>BCA</td>
-                <td>3 Years</td>
-            </tr>
-
-            <tr>
-                <td>BBA</td>
-                <td>3 Years</td>
-            </tr>
-
-            <tr>
-                <td>MCA</td>
-                <td>2 Years</td>
-            </tr>
-
-            <tr>
-                <td>MBA</td>
-                <td>2 Years</td>
-            </tr>
-
-            <tr>
-                <td>Pharmacy</td>
-                <td>4 Years</td>
-            </tr>
-
-            <tr>
-                <td>Law</td>
-                <td>5 Years</td>
-            </tr>
-        </table>
-
-    </section>
-
-    <section>
-
-        <h2>Image Gallery of Events</h2>
-
-        <img src="https://mcuniversity.in/wp-content/uploads/2023/02/MU-Fest-2023.jpg" alt="MU Fest">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAU9-vG7ro6ZYmlzikS6fYJXtPDe8yLdIBqGyduic1kSLG_mIDGJNwf1a0&s=10" alt="Navratri">
-        <img src="https://i.ytimg.com/vi/z23KGY2fMzw/maxresdefault.jpg" alt="Garbotsav">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6ee_yGduvNC3bktwD9ri_QM8SC9hz6S5di8kH4UDnw&s=10" alt="sprts day">
-
-    </section>
-
-    <section>
-
-        <h2>Top Recruiters</h2>
-
-        <table>
-
-            <tr>
-                <th>Company</th>
-                <th>Average Package</th>
-                <th>Students Selected</th>
-            </tr>
-
-            <tr>
-                <td>TCS</td>
-                <td>4 LPA</td>
-                <td>40</td>
-            </tr>
-
-            <tr>
-                <td>Infosys</td>
-                <td>5 LPA</td>
-                <td>28</td>
-            </tr>
-
-            <tr>
-                <td>Capgemini</td>
-                <td>4.5 LPA</td>
-                <td>18</td>
-            </tr>
-
-            <tr>
-                <td>Cognizant</td>
-                <td>5.2 LPA</td>
-                <td>16</td>
-            </tr>
-
-        </table>
-
-    </section>
-
-    <footer>
-        © 2026 ABC Institute of Technology | All Rights Reserved
-    </footer>
-
+alt="University Event">
+</div>
+</div>
+</section>
+<section id="TR" class="bg-white p-4 mb-4 rounded-3 shadow-sm">
+<h3 class="fw-bold border-bottom pb-2" style="color: #17365d;">
+Top Recruiters
+</h3>
+<div class="row mt-3">
+<div class="col-12 col-md-4">
+<ul>
+<li class="mb-2">TCS</li>
+<li class="mb-2">Infosys</li>
+<li>Capgemini</li>
+</ul>
+</div>
+<div class="col-12 col-md-4">
+<ul>
+<li class="mb-2">Wipro</li>
+<li class="mb-2">LTIMindtree</li>
+<li>Cognizant</li>
+</ul>
+</div>
+<div class="col-12 col-md-4">
+<ul>
+<li>Reliance Industries</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+<footer class="text-white text-center p-4" style="background-color: #17365d;">
+<h5 class="mb-2">Marwadi University</h5>
+<p class="mb-1">
+Department of Computer Engineering
+</p>
+<p class="mb-0">
+&copy; 2026 MU - All Rights Reserved
+</p>
+</footer>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+</script>
 </body>
-
-</html>
+</html>    
